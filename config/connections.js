@@ -42,10 +42,10 @@ module.exports.connections = {
   ***************************************************************************/
   someMysqlServer: {
     adapter: 'sails-mysql',
-    host: 'YOUR_MYSQL_SERVER_HOSTNAME_OR_IP_ADDRESS',
-    user: 'YOUR_MYSQL_USER',
-    password: 'YOUR_MYSQL_PASSWORD',
-    database: 'YOUR_MYSQL_DB'
+    host: 'localhost',
+    user: 'root',
+    password: 'root',
+    database: 'wedding'
   },
 
   /***************************************************************************
@@ -90,9 +90,9 @@ module.exports.connections = {
   ***************************************************************************/
 
   sequelizeServer: {
-    user: 'xxx',
-    password: 'xxx',
-    database: 'my_wedding',
+    user: 'root',
+    password: 'root',
+    database: 'wedding',
     options: {
       dialect: 'mysql',
       dialectOptions: {
